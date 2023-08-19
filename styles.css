@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+  font-family: "Open Sans", sans-serif;
+  background-color: #f0f0f0;
+  
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  padding: 20px 0;
+  text-align: right;
+  overflow: hidden;
+}
+nav ul {
+  list-style: none;
+}
+.LibrarySystem{
+  float: left;
+    margin-left: 20px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#books {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column; /* Stack items vertically */
+  text-align: center; /* Center-align text within the section */
+}
+
+#books h2 {
+  margin-bottom: 10px;
+  color: #333;
+  display: inline-block;
+  
+}
+
+#books table {
+  border-collapse: collapse;
+  width: 50%;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#books th {
+  background-color: #062343;
+  color: white;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+#books td {
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  text-align: left;
+  padding: 10px;
+}
+
+
+#books a {
+  color: #007bff;
+}
+
+#books .nested-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+
+#books .nested-table th {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  text-align: left;
+}
+
+
+#books .nested-table td {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+#registration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column; 
+  text-align: center; 
+}
+
+
+#registration h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+
+#registration form {
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%; 
+  max-width: 400px;
+}
+
+
+#registration label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#registration input[type="text"],
+#registration input[type="email"],
+#registration input[type="date"],
+#registration input[type="number"],
+#registration input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+
+#registration input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+#registration input[type="submit"]:hover {
+  background-color: #040405;
+}
